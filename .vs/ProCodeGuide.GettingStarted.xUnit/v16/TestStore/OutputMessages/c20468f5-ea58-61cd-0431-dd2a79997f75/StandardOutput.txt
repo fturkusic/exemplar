@@ -1,0 +1,69 @@
+WARN: Skipping set up for provider state 'String test' for consumer 'Service_Consumer' as there is no --provider-states-setup-url specified.
+INFO: Reading pact at c:/contractfile/pacts/service_consumer-service_provider.json
+
+DEBUG: Filtering interactions by: {:description=>/A Get request to retrieve string/, :provider_state=>/String test/}
+
+Verifying a pact between Service_Consumer and Service_Provider
+  Given String test
+    A Get request to retrieve string
+      with GET /api/Maths
+        returns a response which
+          has status code 200
+          has a matching body
+          includes headers
+            "Content-Type" which equals "application/json, charset-utf-8" (FAILED - 1)
+  Given String test unique
+    A Get request to retrieve string
+      with GET /api/Maths
+        returns a response which
+WARN: Skipping set up for provider state 'String test unique' for consumer 'Service_Consumer' as there is no --provider-states-setup-url specified.
+          has status code 200
+          has a matching body
+          includes headers
+            "Content-Type" which equals "application/json, charset-utf-8" (FAILED - 2)
+  Given String test unique un
+    A Get request to retrieve string
+      with GET /api/Maths
+        returns a response which
+WARN: Skipping set up for provider state 'String test unique un' for consumer 'Service_Consumer' as there is no --provider-states-setup-url specified.
+          has status code 200
+          has a matching body
+          includes headers
+            "Content-Type" which equals "application/json; charset-utf-8" (FAILED - 3)
+  Given String test unique unun
+    A Get request to retrieve string
+      with GET /api/Maths
+        returns a response which
+WARN: Skipping set up for provider state 'String test unique unun' for consumer 'Service_Consumer' as there is no --provider-states-setup-url specified.
+          has status code 200
+          has a matching body
+          includes headers
+            "Content-Type" which equals "application/json; charset-utf-8" (FAILED - 4)
+
+Failures:
+
+  1) Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json, charset-utf-8"
+     Failure/Error: expect(header_value).to match_header(name, expected_header_value)
+       Expected header "Content-Type" to equal "application/json, charset-utf-8", but was "application/json; charset=utf-8"
+
+  2) Verifying a pact between Service_Consumer and Service_Provider Given String test unique A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json, charset-utf-8"
+     Failure/Error: expect(header_value).to match_header(name, expected_header_value)
+       Expected header "Content-Type" to equal "application/json, charset-utf-8", but was "text/plain; charset=utf-8"
+
+  3) Verifying a pact between Service_Consumer and Service_Provider Given String test unique un A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json; charset-utf-8"
+     Failure/Error: expect(header_value).to match_header(name, expected_header_value)
+       Expected header "Content-Type" to equal "application/json; charset-utf-8", but was "text/plain; charset=utf-8"
+
+  4) Verifying a pact between Service_Consumer and Service_Provider Given String test unique unun A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json; charset-utf-8"
+     Failure/Error: expect(header_value).to match_header(name, expected_header_value)
+       Expected header "Content-Type" to equal "application/json; charset-utf-8", but was "application/json; charset=utf-8"
+
+4 interactions, 4 failures
+
+Failed interactions:
+
+To re-run just this failing interaction, change the verify method to '.Verify(description: "A Get request to retrieve string", providerState: "String test")'. Please do not check in this change! # A get request to retrieve string given String test
+To re-run just this failing interaction, change the verify method to '.Verify(description: "A Get request to retrieve string", providerState: "String test unique")'. Please do not check in this change! # A get request to retrieve string given String test unique
+To re-run just this failing interaction, change the verify method to '.Verify(description: "A Get request to retrieve string", providerState: "String test unique un")'. Please do not check in this change! # A get request to retrieve string given String test unique un
+To re-run just this failing interaction, change the verify method to '.Verify(description: "A Get request to retrieve string", providerState: "String test unique unun")'. Please do not check in this change! # A get request to retrieve string given String test unique unun
+

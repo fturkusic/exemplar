@@ -1,0 +1,216 @@
+# Logfile created on 2021-07-09 14:10:04 +0200 by logger.rb/47272
+I, [2021-07-09T14:10:04.740172 #13932]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-09T14:10:04.740172 #13932]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-09T14:10:04.740172 #13932] DEBUG -- : body :
+I, [2021-07-09T14:10:08.966476 #13932]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has a matching body'
+I, [2021-07-09T14:10:08.968480 #13932]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-09T14:10:08.968480 #13932] DEBUG -- : body :
+I, [2021-07-09T14:10:13.071188 #13932]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json, charset-utf-8"'
+I, [2021-07-09T14:10:13.072201 #13932]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-09T14:10:13.072201 #13932] DEBUG -- : body :
+I, [2021-07-22T14:10:12.449539 #18104]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-22T14:10:12.450539 #18104]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:10:12.450539 #18104] DEBUG -- : body :
+I, [2021-07-22T14:10:16.584783 #18104]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has a matching body'
+I, [2021-07-22T14:10:16.584783 #18104]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:10:16.585746 #18104] DEBUG -- : body :
+I, [2021-07-22T14:10:20.681694 #18104]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json, charset-utf-8"'
+I, [2021-07-22T14:10:20.682688 #18104]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:10:20.683681 #18104] DEBUG -- : body :
+I, [2021-07-22T14:11:30.412392 #17896]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-22T14:11:30.413391 #17896]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:11:30.413391 #17896] DEBUG -- : body :
+I, [2021-07-22T14:11:34.505744 #17896]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has a matching body'
+I, [2021-07-22T14:11:34.506743 #17896]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:11:34.506743 #17896] DEBUG -- : body :
+I, [2021-07-22T14:11:38.582683 #17896]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json, charset-utf-8"'
+I, [2021-07-22T14:11:38.583625 #17896]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:11:38.583625 #17896] DEBUG -- : body :
+I, [2021-07-22T14:15:18.790639 #28824]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-22T14:15:18.791632 #28824]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:15:18.791632 #28824] DEBUG -- : body :
+I, [2021-07-22T14:15:22.924723 #28824]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has a matching body'
+I, [2021-07-22T14:15:22.925724 #28824]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:15:22.925724 #28824] DEBUG -- : body :
+I, [2021-07-22T14:15:26.997331 #28824]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json, charset-utf-8"'
+I, [2021-07-22T14:15:26.999332 #28824]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:15:26.999332 #28824] DEBUG -- : body :
+I, [2021-07-22T14:17:02.989711 #6120]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-22T14:17:02.990720 #6120]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:17:02.991710 #6120] DEBUG -- : body :
+I, [2021-07-22T14:17:07.114689 #6120]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has a matching body'
+I, [2021-07-22T14:17:07.115712 #6120]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:17:07.115712 #6120] DEBUG -- : body :
+I, [2021-07-22T14:17:11.177966 #6120]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json, charset-utf-8"'
+I, [2021-07-22T14:17:11.177966 #6120]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:17:11.177966 #6120] DEBUG -- : body :
+I, [2021-07-22T14:23:17.676892 #4536]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-22T14:23:17.678903 #4536]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-22T14:23:17.678903 #4536] DEBUG -- : body :
+I, [2021-07-22T14:23:17.739892 #4536]  INFO -- : Received response with status: 404, headers: {"Date"=>"Thu, 22 Jul 2021 12:23:17 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-22T14:23:17.739892 #4536] DEBUG -- : body: 
+I, [2021-07-23T14:47:49.949926 #26604]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T14:47:49.950927 #26604]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T14:47:49.950927 #26604] DEBUG -- : body :
+I, [2021-07-23T14:47:50.117725 #26604]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 12:47:49 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T14:47:50.118736 #26604] DEBUG -- : body: 
+I, [2021-07-23T14:49:16.904471 #17900]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T14:49:16.904471 #17900]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T14:49:16.905472 #17900] DEBUG -- : body :
+I, [2021-07-23T14:49:16.995472 #17900]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 12:49:16 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T14:49:16.996473 #17900] DEBUG -- : body: 
+I, [2021-07-23T14:50:28.198895 #28596]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T14:50:28.199895 #28596]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T14:50:28.199895 #28596] DEBUG -- : body :
+I, [2021-07-23T14:50:28.252925 #28596]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 12:50:28 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T14:50:28.252925 #28596] DEBUG -- : body: 
+I, [2021-07-23T14:53:50.517220 #3160]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T14:53:50.518216 #3160]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T14:53:50.518216 #3160] DEBUG -- : body :
+I, [2021-07-23T14:53:50.571361 #3160]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 12:53:49 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T14:53:50.571361 #3160] DEBUG -- : body: 
+I, [2021-07-23T14:55:47.996275 #27196]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T14:55:47.996275 #27196]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T14:55:47.996275 #27196] DEBUG -- : body :
+I, [2021-07-23T14:55:48.153274 #27196]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 12:55:48 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T14:55:48.154276 #27196] DEBUG -- : body: 
+I, [2021-07-23T14:57:57.935597 #22504]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T14:57:57.935597 #22504]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T14:57:57.935597 #22504] DEBUG -- : body :
+I, [2021-07-23T14:57:57.988605 #22504]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 12:57:57 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T14:57:57.988605 #22504] DEBUG -- : body: 
+I, [2021-07-23T15:02:56.368978 #27688]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:02:56.368978 #27688]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:02:56.369976 #27688] DEBUG -- : body :
+I, [2021-07-23T15:02:56.423481 #27688]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:02:56 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:02:56.423481 #27688] DEBUG -- : body: 
+I, [2021-07-23T15:06:01.341237 #24564]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:06:01.342199 #24564]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:06:01.342199 #24564] DEBUG -- : body :
+I, [2021-07-23T15:06:01.420100 #24564]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:06:00 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:06:01.420100 #24564] DEBUG -- : body: 
+I, [2021-07-23T15:07:16.326549 #27888]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:07:16.327538 #27888]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"text/html", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:07:16.327538 #27888] DEBUG -- : body :
+I, [2021-07-23T15:07:16.407598 #27888]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:07:15 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:07:16.408542 #27888] DEBUG -- : body: 
+I, [2021-07-23T15:09:02.404182 #8776]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:09:02.405147 #8776]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:09:02.405147 #8776] DEBUG -- : body :
+I, [2021-07-23T15:09:02.457181 #8776]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:09:01 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:09:02.457181 #8776] DEBUG -- : body: 
+I, [2021-07-23T15:17:13.620735 #27832]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:17:13.621736 #27832]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:17:13.621736 #27832] DEBUG -- : body :
+I, [2021-07-23T15:17:13.694767 #27832]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:17:12 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:17:13.694767 #27832] DEBUG -- : body: 
+I, [2021-07-23T15:20:14.031112 #11908]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:20:14.034095 #11908]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:20:14.035085 #11908] DEBUG -- : body :
+I, [2021-07-23T15:20:14.104066 #11908]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:20:13 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:20:14.104066 #11908] DEBUG -- : body: 
+I, [2021-07-23T15:22:28.053423 #22216]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:22:28.053423 #22216]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:22:28.053423 #22216] DEBUG -- : body :
+I, [2021-07-23T15:22:28.107778 #22216]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:22:28 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:22:28.107778 #22216] DEBUG -- : body: 
+I, [2021-07-23T15:28:34.301922 #26932]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:28:34.302922 #26932]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"*/*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:28:34.302922 #26932] DEBUG -- : body :
+I, [2021-07-23T15:28:34.475074 #26932]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:28:33 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:28:34.475074 #26932] DEBUG -- : body: 
+I, [2021-07-23T15:29:36.128290 #4592]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:29:36.129291 #4592]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"*/*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:29:36.129291 #4592] DEBUG -- : body :
+I, [2021-07-23T15:29:36.192505 #4592]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:29:35 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:29:36.192505 #4592] DEBUG -- : body: 
+I, [2021-07-23T15:29:53.620081 #4704]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:29:53.620081 #4704]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"*/*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:29:53.620081 #4704] DEBUG -- : body :
+I, [2021-07-23T15:29:53.676692 #4704]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:29:53 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:29:53.676692 #4704] DEBUG -- : body: 
+I, [2021-07-23T15:41:38.400887 #26356]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:41:38.401887 #26356]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"*/*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:41:38.401887 #26356] DEBUG -- : body :
+I, [2021-07-23T15:41:38.492889 #26356]  INFO -- : Received response with status: 404, headers: {"Date"=>"Fri, 23 Jul 2021 13:41:37 GMT", "Server"=>"Kestrel", "Content-Length"=>"0"}, see debug logs for body
+D, [2021-07-23T15:41:38.492889 #26356] DEBUG -- : body: 
+I, [2021-07-23T15:42:38.231848 #26604]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:42:38.231848 #26604]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"*/*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:42:38.232886 #26604] DEBUG -- : body :
+I, [2021-07-23T15:42:38.323585 #26604]  INFO -- : Received response with status: 200, headers: {"Date"=>"Fri, 23 Jul 2021 13:42:38 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-23T15:42:38.323585 #26604] DEBUG -- : body: Test
+I, [2021-07-23T15:48:27.838541 #27348]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:48:27.843622 #27348]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:48:27.844547 #27348] DEBUG -- : body :
+I, [2021-07-23T15:48:28.014546 #27348]  INFO -- : Received response with status: 200, headers: {"Date"=>"Fri, 23 Jul 2021 13:48:27 GMT", "Content-Type"=>"application/json; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"6"}, see debug logs for body
+D, [2021-07-23T15:48:28.015561 #27348] DEBUG -- : body: "Test"
+I, [2021-07-23T15:49:58.465128 #24592]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:49:58.465128 #24592]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"*/*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:49:58.465128 #24592] DEBUG -- : body :
+I, [2021-07-23T15:49:58.558392 #24592]  INFO -- : Received response with status: 200, headers: {"Date"=>"Fri, 23 Jul 2021 13:49:57 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-23T15:49:58.558392 #24592] DEBUG -- : body: Test
+I, [2021-07-23T15:59:16.976475 #26732]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-23T15:59:16.977804 #26732]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"*/*", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-23T15:59:16.978473 #26732] DEBUG -- : body :
+I, [2021-07-23T15:59:17.182634 #26732]  INFO -- : Received response with status: 200, headers: {"Date"=>"Fri, 23 Jul 2021 13:59:16 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-23T15:59:17.182634 #26732] DEBUG -- : body: Test
+I, [2021-07-28T17:15:32.227186 #32604]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:15:32.228184 #32604]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-28T17:15:32.228184 #32604] DEBUG -- : body :
+I, [2021-07-28T17:15:32.373429 #32604]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:15:32 GMT", "Content-Type"=>"application/json; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"6"}, see debug logs for body
+D, [2021-07-28T17:15:32.374440 #32604] DEBUG -- : body: "Test"
+I, [2021-07-28T17:15:32.397421 #32604]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:15:32.398420 #32604]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique"}]}, see debug logs for body
+D, [2021-07-28T17:15:32.398420 #32604] DEBUG -- : body :
+I, [2021-07-28T17:15:32.422427 #32604]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:15:32 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-28T17:15:32.424434 #32604] DEBUG -- : body: Test
+I, [2021-07-28T17:15:32.433469 #32604]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique un A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:15:32.434470 #32604]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique un"}]}, see debug logs for body
+D, [2021-07-28T17:15:32.434470 #32604] DEBUG -- : body :
+I, [2021-07-28T17:15:32.469503 #32604]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:15:32 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-28T17:15:32.470503 #32604] DEBUG -- : body: Test
+I, [2021-07-28T17:15:32.481489 #32604]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique unun A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:15:32.483490 #32604]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique unun"}]}, see debug logs for body
+D, [2021-07-28T17:15:32.483490 #32604] DEBUG -- : body :
+I, [2021-07-28T17:15:32.514487 #32604]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:15:32 GMT", "Content-Type"=>"application/json; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"6"}, see debug logs for body
+D, [2021-07-28T17:15:32.514487 #32604] DEBUG -- : body: "Test"
+I, [2021-07-28T17:23:42.858533 #26692]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique un A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:23:42.859501 #26692]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique un"}]}, see debug logs for body
+D, [2021-07-28T17:23:42.859501 #26692] DEBUG -- : body :
+I, [2021-07-28T17:23:42.927785 #26692]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:23:42 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-28T17:23:42.927785 #26692] DEBUG -- : body: Test
+I, [2021-07-28T17:23:42.944814 #26692]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique unun A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:23:42.945780 #26692]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique unun"}]}, see debug logs for body
+D, [2021-07-28T17:23:42.945995 #26692] DEBUG -- : body :
+I, [2021-07-28T17:23:42.967474 #26692]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:23:42 GMT", "Content-Type"=>"application/json; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"6"}, see debug logs for body
+D, [2021-07-28T17:23:42.968486 #26692] DEBUG -- : body: "Test"
+I, [2021-07-28T17:26:39.277501 #33464]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:26:39.278466 #33464]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-28T17:26:39.278466 #33464] DEBUG -- : body :
+I, [2021-07-28T17:26:39.367471 #33464]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:26:38 GMT", "Content-Type"=>"application/json; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"6"}, see debug logs for body
+D, [2021-07-28T17:26:39.368473 #33464] DEBUG -- : body: "Test"
+I, [2021-07-28T17:26:39.390466 #33464]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:26:39.390466 #33464]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique"}]}, see debug logs for body
+D, [2021-07-28T17:26:39.390466 #33464] DEBUG -- : body :
+I, [2021-07-28T17:26:39.415465 #33464]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:26:38 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-28T17:26:39.415465 #33464] DEBUG -- : body: Test
+I, [2021-07-28T17:26:39.417465 #33464]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique un A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:26:39.417465 #33464]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique un"}]}, see debug logs for body
+D, [2021-07-28T17:26:39.417465 #33464] DEBUG -- : body :
+I, [2021-07-28T17:26:39.446483 #33464]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:26:38 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-28T17:26:39.447497 #33464] DEBUG -- : body: Test
+I, [2021-07-28T17:26:39.449485 #33464]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique unun A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-28T17:26:39.449485 #33464]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique unun"}]}, see debug logs for body
+D, [2021-07-28T17:26:39.449485 #33464] DEBUG -- : body :
+I, [2021-07-28T17:26:39.477523 #33464]  INFO -- : Received response with status: 200, headers: {"Date"=>"Wed, 28 Jul 2021 15:26:38 GMT", "Content-Type"=>"application/json; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"6"}, see debug logs for body
+D, [2021-07-28T17:26:39.478485 #33464] DEBUG -- : body: "Test"
+I, [2021-07-30T15:38:19.817585 #22768]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique unun A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-30T15:38:19.818584 #22768]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique unun"}]}, see debug logs for body
+D, [2021-07-30T15:38:19.818584 #22768] DEBUG -- : body :
+I, [2021-07-30T15:38:19.970589 #22768]  INFO -- : Received response with status: 200, headers: {"Date"=>"Fri, 30 Jul 2021 13:38:19 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-30T15:38:19.970589 #22768] DEBUG -- : body: Test
+I, [2021-07-30T15:42:40.526637 #14684]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test unique unun A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-30T15:42:40.526637 #14684]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"String test unique unun"}]}, see debug logs for body
+D, [2021-07-30T15:42:40.527644 #14684] DEBUG -- : body :
+I, [2021-07-30T15:42:40.589637 #14684]  INFO -- : Received response with status: 200, headers: {"Date"=>"Fri, 30 Jul 2021 13:42:39 GMT", "Content-Type"=>"text/plain; charset=utf-8", "Server"=>"Kestrel", "Content-Length"=>"4"}, see debug logs for body
+D, [2021-07-30T15:42:40.590639 #14684] DEBUG -- : body: Test
