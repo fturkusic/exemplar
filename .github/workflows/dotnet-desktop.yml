@@ -42,4 +42,4 @@ jobs:
     - name: Execute unit tests
       run: |
         cd .\ProCodeGuide.xUnitTests\
-        dotnet test
+        dotnet test ; exit 1
